@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Baratão Trabalha com Tudo</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- Barra Superior -->
+
+    <div class="top-bar"></div>
+
+    <!-- Header -->
+
+    <header>
+
+        <div class="container">
+
+            <div class="header-top">
+
+                <div class="logo">
+
+                    <!-- TROQUE PELO LOGO DA EMPRESA -->
+
+                    <img src="https://i.imgur.com/zKQekPn.jpeg" alt="Logo">
+
+                    <div class="logo-text">
+
+                        <h1>BARATÃO</h1>
+
+                        <p>Trabalhamos com Tudo</p>
+
+                    </div>
+
+                </div>
+
+                <div class="search">
+
+                    <input type="text" id="busca" placeholder="O que você procura hoje?">
+
+                    <button>
+
+                        <i class="fa-solid fa-magnifying-glass"></i>
+
+                        Pesquisar
+
+                    </button>
+
+                </div>
+
+                <a href="https://wa.me/5591993025361" class="btn-whatsapp">
+
+                    <i class="fa-brands fa-whatsapp"></i>
+
+                    Solicitar orçamento
+
+                </a>
+
+            </div>
+
+            <nav>
+
+<ul>
+
+<li>
+    <a href="#" id="menu-inicio">
+        <i class="fa-solid fa-house"></i>
+        Início
+    </a>
+</li>
+
+<li>
+    <a href="#" class="menu-item" id="menu-informatica" data-categoria="informatica">
+        <i class="fa-solid fa-laptop"></i>
+        Informática
+    </a>
+</li>
+
+<li>
+    <a href="#" class="menu-item" id="menu-papelaria" data-categoria="papelaria">
+        <i class="fa-solid fa-book"></i>
+        Papelaria
+    </a>
+</li>
+
+<li>
+    <a href="#" class="menu-item" id="menu-celulares" data-categoria="celulares">
+        <i class="fa-solid fa-mobile-screen"></i>
+        Celulares
+    </a>
+</li>
+
+<li>
+    <a href="#" class="menu-item" id="menu-audio" data-categoria="audio">
+        <i class="fa-solid fa-headphones"></i>
+        Áudio
+    </a>
+</li>
+
+<li>
+    <a href="#" class="menu-item" id="menu-todos" data-categoria="todos">
+        <i class="fa-solid fa-box-open"></i>
+        Todos os Produtos
+    </a>
+</li>
+
+</ul>
+
+</nav>
+
+        </div>
+
+        <div class="info-bar">
+
+            📦 <strong>Não encontrou o produto?</strong>
+
+            A gente consegue. Nos desafie!
+
+        </div>
+
+    </header>
+
+    <!-- ===========================
+            HERO SLIDER
+    ============================ -->
+
+    <section class="hero-slider">
+
+        <div class="slides">
+
+            <!-- Banner 1 -->
+
+            <div class="slide active">
+
+                <img src="https://i.imgur.com/dvLZlUR.png">
+
+                <div class="overlay"></div>
+
+                <div class="content">
+
+                    <span>NOVIDADES</span>
+
+                    <h1>Baratão Trabalha com Tudo</h1>
+
+                    <p>
+
+                        Informática, Papelaria, Eletrônicos,
+
+                        Celulares, Acessórios e muito mais.
+
+                    </p>
+
+                    <a href="https://wa.me/5591999999999">
+
+                        Solicitar orçamento
+
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- Banner 2 -->
+
+            <div class="slide">
+
+                <img src="https://i.imgur.com/3aMxgIZ.png">
+
+                <div class="overlay"></div>
+
+                <div class="content">
+
+                    <span>VOLTA ÀS AULAS</span>
+
+                    <h1>Os melhores materiais escolares</h1>
+
+                    <p>
+
+                        Cadernos, mochilas, estojos,
+
+                        calculadoras e muito mais.
+
+                    </p>
+
+                    <a href="https://wa.me/5591999999999">
+
+                        Solicitar orçamento
+
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- Banner 3 -->
+
+            <div class="slide">
+
+                <img src="https://i.imgur.com/3GLIqkZ.png">
+
+                <div class="overlay"></div>
+
+                <div class="content">
+
+                    <span>TECNOLOGIA</span>
+
+                    <h1>Os melhores eletrônicos</h1>
+
+                    <p>
+
+                        Notebooks, Headsets,
+
+                        Mouses, Teclados e muito mais.
+
+                    </p>
+
+                    <a href="https://wa.me/5591999999999">
+
+                        Solicitar orçamento
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <button class="prev">
+
+            <i class="fa-solid fa-chevron-left"></i>
+
+        </button>
+
+        <button class="next">
+
+            <i class="fa-solid fa-chevron-right"></i>
+
+        </button>
+
+        <div class="dots">
+
+            <span class="dot active"></span>
+
+            <span class="dot"></span>
+
+            <span class="dot"></span>
+
+        </div>
+
+    </section>
+
+    <!-- ===================================
+        PRODUTOS EM DESTAQUE
+=================================== -->
+
+<!-- ===================================
+        PRODUTOS
+=================================== -->
+
+<section class="products">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <h2 id="titulo-categoria">
+
+                Produtos em Destaque
+
+            </h2>
+
+            <p>
+
+                Escolha uma categoria acima para visualizar os produtos.
+
+            </p>
+
+        </div>
+
+        <div id="lista-produtos" class="products-grid">
+
+        </div>
+
+    </div>
+
+</section>
+
+   <footer class="footer">
+
+    <div class="container">
+
+        <h2>BARATÃO</h2>
+
+        <p>Trabalha com Tudo</p>
+
+        <p>
+            Informática • Papelaria • Eletrônicos • Celulares • Muito Mais
+        </p>
+
+        <a href="https://wa.me/5591999999999" target="_blank">
+
+            <i class="fa-brands fa-whatsapp"></i>
+
+            Solicitar orçamento pelo WhatsApp
+
+        </a>
+
+        <p class="copy">
+
+            © 2026 Baratão Trabalha com Tudo.
+
+        </p>
+
+    </div>
+
+</footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
